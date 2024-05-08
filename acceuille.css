@@ -1,0 +1,201 @@
+/* sa c'est pour insérer l'image de fond de l'arrière plan */
+
+body{
+    height: 100vh;
+    
+    background-position: center;
+    background-size: cover;
+    /* background-color: 05336f; couleur bleu comme arriere plan */ 
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "blackchancery";
+    background-image: url("background.jpg");
+    
+    
+    
+}
+ /*ici c'est le logo du tpe*/
+.logo_site{
+    float: left;
+    padding: 15px;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   background: transparent;
+
+
+   
+   
+ 
+}
+
+
+img{
+    float: right;
+    width: 150px;
+    padding: 5px;
+
+}
+
+/* code de la video  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:"blackchancery";
+    src: url(blackchancery.ttf);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70px;
+    line-height: 70px;
+
+}
+
+.logo{
+    color: #ddc700;
+    margin-left: 100px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu {
+    margin-right: 60px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #7a7a7a;
+    font-size: 24px;
+}
+
+.active{
+    color:#ddc700;
+}
+
+li a:hover{
+    color: #ddc700;
+}
+
+.margin-r {
+    margin-right: 0;
+}
+
+.search{
+    border: 1px solid #ddc700;
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=text] {
+    padding-left: 15px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    color: #ddc700;
+    outline: none;
+    font-size: 19px;
+    background: transparent;
+    margin-top: -2px;
+    letter-spacing: 1px;
+    font-family: "blackchancery";
+}
+
+.btn-search{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+
+}
+
+h2{
+    position: absolute;
+    top: 10%;
+    right: 4%;
+    font-size: 120px;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+    color: #ddc700;
+}
+
+h4{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    font-size: 19px;
+    letter-spacing: 2px;
+    width: 400px;
+    text-align: center;
+    color: #d1d1d1;
+    font-weight: 100;
+}
+
+/*
+
+
+.sign-in, .sign-up{
+    position: absolute;
+    top: 55%;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ddc700;
+    background: transparent;
+    border-radius: 25px;
+    font-size: #d1d1d1;
+    font-family: "blackchancery";
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.sign-in{
+    right: 20%;
+}
+
+.sign-up{
+    right: 4%;
+}
+
+.sign-in:hover, .sign-up:hover{
+    background-color: #ddc700;
+    color: #000000;
+}
+
+
+
+*/

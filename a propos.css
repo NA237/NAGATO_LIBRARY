@@ -1,0 +1,34 @@
+/* pour créer la barre de menu*/
+.menu{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: flex-end;
+   
+   
+    
+}
+.m1{border : 2px  solid black;
+    opacity: 2;
+    width: 150px;
+    height: 50px;
+    flex-flow: row wrap;
+
+}
+  
+/*positionnement du logo */
+.l{
+    float: left;
+   width: 10px; 
+}
+body{
+    background-color:#e2e0e0;
+}
+.texte{
+   float: right;
+    font-size: 20px;
+}
+.N{
+    float: left;
+   width: 10px; 
+}

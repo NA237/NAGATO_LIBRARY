@@ -1,0 +1,207 @@
+
+.x1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+/*titre du films*/
+.a1{
+    display: flex;
+    background-color:#dddddc;
+    border: 2px black;
+    margin: 23px;
+    align:center ;
+}
+/*photo du films*/
+.p1{
+  
+    margin: 23px;
+    border: 3px solid black ;
+    width: 275px;
+
+}
+/*information sur le premier films */
+.e1{
+    background-color: rgb(146, 181, 182);
+}
+
+/*description du film*/
+.d1{
+    text-indent: right;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    flex-direction: row;
+    
+}
+.pd1{
+    display: flex;
+    background-color:#;
+}
+
+/* information sur le fichier*/
+.if{
+   border: 1px solid #000;
+   font-size: 18px;
+}
+/* le body*/
+body{
+    background-color: #e6e2e1;
+}
+
+
+/* information sur le 2 ème  films*/
+.x2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+/*titre du films*/
+.a2{
+    display: flex;
+    background-color:#b7b7af;
+    border: 2px black;
+    margin: 23px;
+    align:center ;
+}
+/*photo du films*/
+.p2{
+  
+    margin: 23px;
+    border: 3px solid black ;
+    width: 275px;
+
+}
+/*information sur le 3ème films */
+.e2{
+    background-color:#a3918c;
+}
+
+/*description du film*/
+.d2{
+    text-indent: right;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    flex-direction: row;
+    
+}
+.pd2{
+    display: flex;
+    background-color:#;
+}
+
+/* information sur le fichier*/
+.if{
+   border: 1px solid #000;
+   font-size: 18px;
+}
+/* le body*/
+body{
+    background-color: #e6e2e1;
+}
+h3{
+    text-align: centers;
+}
+/*photo du films*/
+.p3{
+  
+    margin: 23px;
+    border: 3px solid black ;
+    width: 217px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* information sur le 2 ème  films*/
+.x2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+/*titre du films*/
+.a2{
+    display: flex;
+    background-color:#b7b7af;
+    border: 2px black;
+    margin: 23px;
+    align:center ;
+}
+/*photo du films*/
+.p2{
+  
+    margin: 23px;
+    border: 3px solid black ;
+    width: 275px;
+
+}
+
+/*information sur le 3ème films */
+.e3{
+    background-color:#c1c6e1;
+}
+
+/*description du film*/
+.d3{
+    text-indent: right;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    flex-direction: row;
+    
+}
+.pd3{
+    display: flex;
+    background-color:#;
+}
+
+/* information sur le fichier*/
+.if{
+   border: 1px solid #000;
+   font-size: 18px;
+}
+/* le body*/
+body{
+    background-color: #e6e2e1;
+}
+h3{
+    text-align: centers;
+}
+
+/*ceci c'est pour permettre a l'internaute  de lire et de telecharger un PDF*/
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+
+.pdf-container {
+    width: 100%;
+    height: 600px;
+  }
+
+/*information sur le 4ème*/ 
+
+
+
+
+
+
+
+
+
